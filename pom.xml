@@ -35,10 +35,15 @@
 		<url>scm:git:git@github.com:hjort/dump2pg.git</url>
 		<connection>scm:git:git@github.com:hjort/dump2pg.git</connection>
 		<developerConnection>scm:git:git@github.com:hjort/dump2pg.git</developerConnection>
-<!--		<url>https://github.com/hjort/dump2pg</url>-->
-<!--		<connection>scm:git:git://github.com/hjort/dump2pg.git</connection>-->
-<!--		<developerConnection>scm:git:git://github.com/hjort/dump2pg.git</developerConnection>-->
 	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>local</id>
+			<name>Local Repository</name>
+			<url>file:/tmp/tobeskipped</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
@@ -89,7 +94,13 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>2.1</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
