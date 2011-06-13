@@ -20,7 +20,7 @@
 
 	<groupId>com.google.code</groupId>
 	<artifactId>dump2pg</artifactId>
-	<version>1.0.0-RC2</version>
+	<version>1.0.0-RC2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>dump2pg</name>
@@ -32,9 +32,12 @@
 	</properties>
 
 	<scm>
+		<connection>scm:git:git://github.com/hjort/dump2pg.git</connection>
+		<!--
 		<url>https://github.com/hjort/dump2pg</url>
 		<connection>scm:git:git://github.com/hjort/dump2pg.git</connection>
 		<developerConnection>scm:git:git@github.com:hjort/dump2pg.git</developerConnection>
+		-->
 		<!--
 		<url>scm:git:git@github.com:hjort/dump2pg.git</url>
 		<connection>scm:git:git@github.com:hjort/dump2pg.git</connection>
