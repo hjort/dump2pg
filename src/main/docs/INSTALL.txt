@@ -1,0 +1,6 @@
+In order to install dump2pg, please follow the instructions below:
+
+1. Download dump2pg binary file (eg: dump2pg-1.0.0-bin.zip)
+2. Extract the ZIP file into a directory
+3. On Linux/UNIX, give execution permissions to "dump2pg" script
+4. Append the extracted directory to PATH system variable

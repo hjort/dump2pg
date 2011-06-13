@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DIRNAME=`dirname "$0"`
+
+libs=`ls $DIRNAME/lib/*.jar | tr "\n" ":"`
+java -cp $libs com.google.code.dump2pg.Dump $*
