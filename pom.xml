@@ -32,7 +32,7 @@
 	</properties>
 
 	<scm>
-		<url>scm:git:git@github.com:hjort/dump2pg.git</url>
+		<url>https://github.com/hjort/dump2pg</url>
 		<connection>scm:git:git@github.com:hjort/dump2pg.git</connection>
 		<developerConnection>scm:git:git@github.com:hjort/dump2pg.git</developerConnection>
 	</scm>
