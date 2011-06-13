@@ -20,7 +20,7 @@
 
 	<groupId>com.google.code</groupId>
 	<artifactId>dump2pg</artifactId>
-	<version>1.0.0-RC1-SNAPSHOT</version>
+	<version>1.0.0-RC1</version>
 	<packaging>jar</packaging>
 
 	<name>dump2pg</name>
